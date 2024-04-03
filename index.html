@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+</style>
+    
+	<!---google fonts hear-->
+	<link href="../../css.css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--font awesome css-->
+	<link rel="stylesheet" href="assets/css/all.min.css">
+	<!--animate css hear-->
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<!-- light_case css -->
+	<link rel="stylesheet" href="assets/css/lightcase.css">
+	<!--swiper css-->
+	<link rel="stylesheet" href="assets/css/swiper.min.css">
+	<!-- shortcut image png is loaded -->
+	<link rel="shortcut icon" href="assets/images/logo/seo.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- style CSS is loaded -->
+    <link rel="stylesheet" href="assets/css/style.css">
+	<title>QGC - Website Designing</title>
+  </head>
+  <body data-spy="scroll" class="p-0 style-4 overflow-auto">
+  
+	
+	<!-- preloader start here -->
+	<div class="preloader">
+		<div class="preloader-inner">
+			<div class="preloader-icon">
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</div>
+	<!-- preloader ending here -->
+
+	<!-- search area -->
+	<div class="search-area">
+		<div class="search-input">
+			<div class="search-close">
+				<i class="fa fa-times"></i>
+			</div>
+			<form action="mail" method="post">
+				<!-- <input type="text" name="text" placeholder="Search Heare">
+				<button class="search-btn">
+					<span class="serch-icon">
+						<i class="fa fa-search"></i>
+					</span>
+				</button> -->
+					
+				<input type="text" name="name" id="name" placeholder="Name*" required>
+				<input type="email" name="email" id="email" placeholder="Email*" required>
+				<input type="text" name="phone" id="phone" placeholder="Phone number*" style="width:100%" onchange="validateHome(this.value);" required> 
+				<textarea type="text" name="message" id="message" id="role" cols="30" rows="10" placeholder="Message*" style="width:100%;padding:15px"></textarea>
+				<button type="submit" name="submit" class="contact-btn modelbtn" style="background: #ff9200;color: #fff; padding: 10px;">
+					<span>Submit Now</span>
+				</button>
+			</form>
+		</div>
+	</div>
+	<!-- search area -->
+	
+		
+<!-- mobile menu area start -->
+	<div class="mobile-menu style-4">
+		<nav class="mobile-header primary-menu d-lg-none">
+			<div class="header-logo">
+				<a href="index.html" class="logo">
+					<img src="assets/images/Qualityss.png" alt="logo">
+				</a>
+			</div>
+			<div class="header-bar">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div> 
+		</nav>
+		<nav class="menu">
+			<div class="mobile-menu-area d-lg-none">
+				<div class="mobile-menu-area-inner" id="scrollbar">
+				<!--	<div class="mobile-search">
+						<div class="search-inner">
+							<input type="text" placeholder="Search Here......">
+							<button type="submit">
+								<span>
+									<i class="fa fa-search"></i>
+								</span>
+							</button>
+						</div>
+					</div>-->
+					<ul class="m-menu">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="about.html">About</a>
+						</li>
+						<li>
+							<a href="project.html">Our Project</a>
+						</li>
+						<li>
+							<a href="#0">Our Service</a>
+							<ul class=" fa m-submenu">
+								<li><a href="QFS">Finance Services</a></li>
+								<li><a href="QBC">Building Construction</a></li>
+
+								<li><a href="QBM">Building Materials</a></li>
+								<li><a href="Q-Store">QStore Online E-commerce</a></li>
+								<li><a href="logo_designing">Logo Designing</a></li>
+								<li><a href="web_development">Web Development</a></li>
+								<li><a href="e-commerce_solution">E-commerce Solution</a></li>
+								<li><a href="cms_development">CMS Development</a></li>
+								<li><a href="digital_marketing">Digital Marketing</a></li>
+								<li><a href="react_native">React Native</a></li>
+							</ul>
+						</li>
+						
+						<li>
+							<a href="contact" class="active">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<!-- mobile menu area end -->
+
+	<!-- header start -->
+	<header class="d-none d-lg-block">
+		<div class="bg-white app-header seo-header">
+			<div class="container-fluid">
+				<div class="header-item">
+					
+					<div class="header-logo">
+						<a href="index.html">
+							<img src="assets/images/Qualityss.png" alt="logo-image">
+						</a>
+					</div>
+				
+				
+					<div class="header-menu">
+							<nav class="primary-menu">
+								<div class="main-menu-area">
+									<ul class="main-menu">
+										<li class="active">
+											<a href="assets/about.html">Home</a>
+										</li>
+										<li class="noactive">
+											<a href="/assets/about.html">About</a>
+										</li>
+										<li class="noactive">
+											<a href="/assets/project.html">Our Project</a>
+										</li>
+									
+																		
+									
+										<li class="menu-holder noactive">
+											
+											<a href="javascript:;" >Our Service </i></a>											<ul class="mega-menu">
+												<li>
+													<span class=" fa fa-angel-down">QUALITY GROUPS</span>
+													<ul>
+														<li><a href="website_design">MARKET SURVEY</a></li>
+														<li><a href="responsive_web_design">MARKET DEMAND</a></li>
+														<li><a href="website_redesign">DIGITAL MARKETING</a></li>
+														<li><a href="brochure_designing">DIGITAL ADVERTISTING</a></li>
+														<li><a href="logo_designing">BUSINESS CONSULTING</a></li>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<span class="submenu-title">QUALITY BUILDING MATERIALS</span>
+													<ul>
+														<li><a href="web_development">BUILDING MATERIALS</a></li>
+														<li><a href="e-commerce_solution">FLOORING,PLUMBING</a>
+														</li>
+														 <li><a href="cms_development">ELECTRICAL, KITCHEN</a> 
+														</li>
+														 <li><a href="payment_gateway_integration">HARDWARE  & PAINTS</a> 
+														</li>
+														 <li><a href="react">BATHROOM FITTINGS</a></li>
+														<li><a href="node_js">DOOR & WINDOWS</a></li>
+														<li><a href="express">STEEL STRUCTURE</a></li>
+														
+													</ul>
+												</li>
+												<li>
+													<span class="submenu-title">Q-INCENSE</span>
+													<ul>
+														<li><a href="digital_marketing">CAMPHOR</a></li>
+														 <li><a href="google_adwords">SAMBRANI</a></li> 
+														 <li><a href="pay_per_click">AGARPATHI</a> 
+														</li>
+														<!-- <li><a href="hosting">Hosting</a> -->
+														</li>
+											
+													</ul>
+												</li>
+												<li>
+													<span class="submenu-title">QUALITY GROUP OF CPMPANIES</span>
+													<ul>
+														<li><a href="andriod_app">QBM</a></li>
+														<li><a href="ios_app">QFS</a></li>
+														<li><a href="react_native">QBC</a></li>
+														<li><a href="react_native">Q-INCENSE</a></li>
+														<li><a href="react_native">Q-STORE</a></li>
+														
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li class="noactive">
+											<a href="assets/about.html">Contact Us</a>
+										</li>
+									</ul>
+								</div>
+							</nav>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- header end -->
+
+	<!-- banner area start -->
+	<div class="app-banner style-2 style-3">
+		<div class="animate-bubble">
+			<div class="bubble a-one"></div>
+			<div class="bubble a-three"></div>
+			<div class="bubble a-four"></div>
+			<div class="bubble a-six"></div>
+			<div class="bubble a-eight">
+				<img src="assets/images/banner/shape/a3.png" alt="animate">
+			</div>
+			<div class="bubble a-nine">
+				<img src="assets/images/banner/shape/a3.png" alt="animate">
+			</div>
+			<div class="bubble a-ten">
+				<img src="assets/images/banner/shape/a3.png" alt="animate">
+			</div>
+		</div>
+		<div class="container">
+			<div class="baner-wrapper">
+				<div class="banner-text">
+					<h2>
+						We Provide Best Service forever! 
+					</h2>
+					<p>
+						Our team of net developers and content specialists have the business acumen, creativity, and knowledge to resolve any drawback and deliver results digitally.
+					</p>
+					<a href="contact" class="custom-btn" style="animation: pulsekey 3s infinite;">
+						<span>Contact Us</span>
+					</a>
+				</div>
+				<div class="banner-thumb">	
+					<img src="assets/images/banner/banners.png" alt="banner-image">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- banner area ends -->
+
+	<!-- service area start -->
+	<div class="service-area style-1">
+		<div class="container">
+			<div class="section-heading text-center wow">
+				<span>QUALITY GROUPS</span>
+				<h3>OUR COMPANIES </h3>
+			</div>
+			<div class="section-wrapper">
+				<div class="row justify-content-center">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12">
+						<div class="post-content text-center service-content wow">
+							<div class="post-thumb">
+								<img src="assets/images/banner/QBC.png" alt="service-image">
+							</div>
+							<div class="post-text">
+								<h4><a href="javascript:;">QUALITY BUILDING CONSTRUCTION <br/> QBC</a></h4>
+								<p>
+									Ideas can be developed by asking team members for custom criteria that helps leadership make informed decisions about which ideas are best.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12">
+						<div class="post-content text-center service-content wow">
+							<div class="post-thumb">
+								<img src="assets/images/banner/QBM.png" alt="service-image">			
+							</div>
+							<div class="post-text">
+								<h4><a href="javascript:;">QUALITY BUILDING MATERIALS<br/>QBM</a></h4>
+								<p>
+									You might also be unsure as to whether or not business’s website should be implementing responsive design, especially if you do not understand the concept.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12">
+						<div class="post-content text-center service-content wow">
+							<div class="post-thumb">
+								<img src="assets/images/banner/QS.png" alt="service-image">
+							</div>
+							<div class="post-text">
+								<h4><a href="javascript:;">Q-STORE</a></h4>
+								<p>
+									Spend some time thinking through your interests in the IT field. We use Innovation and new concepts in creating the method of internet development.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12">
+						<div class="post-content text-center service-content wow">
+							<div class="post-thumb">
+								<img src="assets/images/banner/QI.png" alt="service-image">
+							</div>
+							<div class="post-text">
+								<h4><a href="javascript:;"> Q-INCENSE <br/> </a></h4>
+								<p>
+									Engineering leaders must also ensure their team’s work aligns with the goals of the business and that they keep one eye on the future so that they’re ready to scale.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- service area ends -->
+
+	<!-- about service two area start -->
+	<div class="app-serviece">
+		<div class="container">
+			<div class="section-wrapper">
+				<div class="row align-items-center">
+					<div class="col-xl-6 col-lg-6 col-12 style-two">
+						<div class="post-content">
+							<span>Best Service Forever!</span>
+							<h3>Welcome to Quality Groups</h3>
+							<p>
+								Quality Groups brings you a team of execs having experience within the fields of internet coming up with, emblem & folder style, internet Development, SEO, Social Media selling, CMS, Mobile App Development, API Integration and PPC.
+							</p>
+						</div>
+						<ul class="counter-wrapper">
+							<li class="counter-box">
+								<div class="counter-content">
+									<span class="counter">2</span><span>+</span>
+									<p> Recent Projects</p>
+								</div>
+							</li>
+
+							<li class="counter-box">
+								<div class="counter-content">
+									<span class="counter">3</span><span>+</span>
+									<p>Completed Projects</p>
+								</div>
+							</li>
+
+							<li class="counter-box">
+								<div class="counter-content">
+									<span class="counter">2</span><span>+</span>
+									<p> Live Projects</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-12">
+						<div class="post-thumb">
+							<div class="thumb-inner wow fadeInRight" data-wow-delay=".1s" data-wow-duration="1s">
+								<img src="assets/images/about/abouts.png" alt="service-image">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- about service two area start -->
+	
+	<!-- landing page videos -->
+	<div class="landing-video-area">
+		<div class="animate-bubble style-1">
+			<div class="bubble a-one"></div>
+			<div class="bubble a-three"></div>
+			<div class="bubble a-four"></div>
+			<div class="bubble a-six"></div>
+			<div class="bubble a-eight">
+				<img src="assets/images/banner/shape/a3.png" alt="animate">
+			</div>
+			<div class="bubble a-nine">
+				<img src="assets/images/banner/shape/a3.png" alt="animate">
+			</div>
+			<div class="bubble a-ten">
+				<img src="assets/images/banner/shape/a3.png" alt="animate">
+			</div>
+		</div>
+		<div class="container">
+			<div class="video-thumb text-center wow">
+				<img src="assets/images/videos/video.jpg" alt="landing-imge">
+				<div class="thumb-inner">
+					<a href="QGC.mp4" data-rel="lightcase" class="video-icon">
+						<i class="fa fa-play-circle"></i>
+					</a>
+					<div class="video-wrapper">
+						<div class="wave-pulse wave-pulse-1"></div>
+						<div class="wave-pulse wave-pulse-2"></div>
+						<div class="wave-pulse wave-pulse-3"></div>
+						<div class="wave-pulse wave-pulse-4"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- landing page videos -->
+	
+	
+	<!-- service one area start -->
+	<div class="service-area style-1 style-2 style-3 style-4" style="background: #f6f9ff;">
+		<div class="container">
+			<div class="section-heading text-center wow">
+				<span style="color: #ff9200;">We Provide Best Service Forever</span>
+				<h3>Our Services</h3>
+				<p>
+					We are doing the services like a web development, mobile application, digital marketing, Digital Advertisting, Market Survey, Branding, Business Comsulting, Market  Demand and custom software.
+				</p>
+			</div>
+			<div class="section-wrapper">
+				<div class="row justify-content-center">
+					
+					
+					
+                   <div class="col-lg-4 col-md-6 col-12">
+						<div class="post-content text-center service-content wow" style="background: #f6f9ff;border: 2px solid #693f91;border-radius: 5px;">
+							<div class="post-thumb">
+								<img src="assets/images/service/IT.png" alt="service-image">
+							</div>
+							<div class="post-text">
+								<h4><a href="web_development">Business Consulting</a></h4>
+								<p>
+									Business consulting involves providing expert advice and guidance to organizations to help them improve their operations, achieve their goals, and solve complex business problems
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-12">
+						<div class="post-content text-center service-content wow" style="background: #f6f9ff;border: 2px solid #693f91;border-radius: 5px;">
+							<div class="post-thumb">
+								<img src="assets/images/service/Web.png" alt="service-image">
+							</div>
+							<div class="post-text">
+								<h4><a href="web_development">Web Development</a></h4>
+								<p>
+									The internet development method includes web style, website development, client-side/server-side scripting.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="col-lg-4 col-md-6 col-12">
+						<div class="post-content text-center service-content wow" style="background: #f6f9ff;border: 2px solid #693f91;border-radius: 5px;">
+							<div class="post-thumb">
+								<img src="assets/images/service/ser2.png" alt="service-image">
+							</div>
+							<div class="post-text">
+								<h4><a href="andriod_app">Mobile Application</a></h4>
+								<p>
+									Mobile application may be a bug designed to run on a mobile device appreciate a phone/tablet or watch.
+								</p>
+							</div>
+						</div>
+					</div> -->
+
+					<div class="col-lg-4 col-md-6 col-12">
+						<div class="post-content text-center service-content wow" style="background: #f6f9ff;border: 2px solid #693f91;border-radius: 5px;">
+							<div class="post-thumb">
+								<img src="assets/images/service/Dm.png" alt="service-image">
+							</div>
+							<div class="post-text">
+								<h4><a href="digital_marketing">Digital Marketing</a></h4>
+								<p>
+									We are leading Company in field of Marketing and Marketing Services with a group of exceedingly energetic people who Reliable endeavour towards improving the way Digital Marketing and Digital advertising. 
+								</p>
+							</div>
+						</div>
+					</div>
+					
+					<!-- <div class="col-lg-4 col-md-6 col-12">
+						<div class="post-content text-center service-content wow" style="background: #f6f9ff;border: 2px solid #693f91;border-radius: 5px;">
+							<div class="post-thumb">
+								<img src="assets/images/service/ser4.png" alt="service-image">
+							</div>
+							<div class="post-text">
+								<h4><a href="hosting">Server Hosting</a></h4>
+								<p>
+									Server hosting is AN infrastructure delivery model that has IT users with remote access to server resources.
+								</p>
+							</div>
+						</div>
+					</div> -->
+					<!-- <div class="col-lg-4 col-md-6 col-12">
+						<div class="post-content text-center service-content wow" style="background: #f6f9ff;border: 2px solid #693f91;border-radius: 5px;">
+							<div class="post-thumb">
+								<img src="assets/images/service/ser5.png" alt="service-image">
+							</div>
+							<div class="post-text">
+								<h4><a href="cms_development">Custom Software</a></h4>
+								<p>
+									Custom code serves the distinctive processes of your business, solves your specific issues, satisfies your desires.
+								</p>
+							</div>
+						</div>
+					</div> -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- service one area ends -->
+
+	<!-- server service area start -->
+	<!-- <div class="service-one style-1 style-2 style-3">
+		<div class="container">
+			<div class="section-wrapper">
+				<div class="row justify-content-center align-items-center">
+					<div class="col-xl-7 col-lg-7 col-12">
+						<div class="service-thumb">
+							<img src="assets/images/service/shape/server_bg.png" alt="">
+							
+							
+							
+							
+							<div class="shape-5">
+								<img src="assets/images/service/shape/1.png" alt="service-image">
+								<div class="flag-wtrapper">
+									<div class="wave-pulse wave-pulse-1"></div>
+									<div class="wave-pulse wave-pulse-2"></div>
+									<div class="wave-pulse wave-pulse-3"></div>
+									<div class="wave-pulse wave-pulse-4"></div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					 <div class="col-xl-5 col-lg-5 col-12">
+						<div class="post-heading">
+							<h3>Our Clients</h3>
+							<p>
+								Our team of net developers and content specialists have the business acumen, creativity, and knowledge to resolve any drawback and deliver results digitally.
+							</p>
+						</div>
+						<a href="about" class="custom-btn" style="background: #ff9200;box-shadow: 0 5px 10px rgb(255 146 0 / 39%);">
+							<span>Read More</span>
+						</a>
+					</div> 
+				</div>
+			</div>
+		</div>
+	</div>-->
+	<!-- server service area ends -->
+	
+	<!-- offer area start -->
+	<div class="offer-area" style="background: linear-gradient(to right, #671fa7, #b43e7d) !important;">
+		<div class="container">
+			<div class="section-wrapper">
+				<div class="row align-items-center">
+					<div class="col-lg-12 col-12">
+						<div class="offer-content" style="max-width:100%;text-align:center">
+							<h3>QUALITY GROUP OF COMPANIES</h3>
+							<p style="max-width:100%;text-align:center">
+								Lets works together with the name of our business
+							</p>
+							<a href="contact" style="background: #ff9200;box-shadow: 0 5px 10px rgb(255 146 0 / 39%);" class="custom-btn">
+								<span>Contact Now</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- offer area ends -->
+	
+<!--start slider team area start --	
+<div class="our-team">
+	<div class="container-fluid">
+		<div class="section-heading text-center wow">
+			<h3>Our Team</h3>
+		</div>
+		
+		<div class="slider">
+			<div class="swiper-wrapper section-wrapper">
+			
+				<div class="swiper-slide">
+					<div class="slider__item">
+						<div class="team-content text-center wow">
+							<div class="team-thumb">
+								<img src="assets/images/team/01.png" alt="tema-image">
+							</div>
+							<div class="team-text">
+								<a href="javascript:;"><h4>Kumar</h4></a>
+								<p>Head of Web Development</p>
+								<!--<ul class="tema-icon">
+									<li><a href="javascript:;"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="javascript:;"><i class="fa fa-behance"></i></a></li>
+									<li><a href="javascript:;"><i class="fa fa-instagram"></i></a></li>
+									<li><a href="javascript:;"><i class="fa fa-vimeo-v"></i></a></li>
+									<li><a href="javascript:;"><i class="fa fa-linkedin-in"></i></a></li>
+								</ul>--
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="swiper-slide">
+					<div class="slider__item">
+						<div class="team-content text-center wow">
+							<div class="team-thumb">
+								<img src="assets/images/team/02.png" alt="tema-image">
+							</div>
+							<div class="team-text">
+								<a href="javascript:;"><h4>Kanish kumar</h4></a>
+								<p>Head of Digital Marketing</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="swiper-slide">
+					<div class="slider__item">
+						<div class="team-content text-center wow">
+							<div class="team-thumb">
+								<img src="assets/images/team/03.png" alt="tema-image">
+							</div>
+							<div class="team-text">
+								<a href="javascript:;"><h4>Lokeshwari</h4></a>
+								<p>Head of Web Designing</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="slider__item">
+						<div class="team-content text-center wow">
+							<div class="team-thumb">
+								<img src="assets/images/team/07.png" alt="tema-image">
+							</div>
+							<div class="team-text">
+								<a href="javascript:;"><h4>Kiruthika</h4></a>
+								<p>Head of SEO</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="swiper-slide">
+					<div class="slider__item">
+						<div class="team-content text-center wow">
+							<div class="team-thumb">
+								<img src="assets/images/team/03.png" alt="tema-image">
+							</div>
+							<div class="team-text">
+								<a href="javascript:;"><h4>Abirami</h4></a>
+								<p>Head of UI/UX </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="swiper-slide">
+					<div class="slider__item">
+						<div class="team-content text-center wow">
+							<div class="team-thumb">
+								<img src="assets/images/team/08.png" alt="tema-image">
+							</div>
+							<div class="team-text">
+								<a href="javascript:;"><h4>Sarath</h4></a>
+								<p>Head of Node js</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="swiper-slide">
+					<div class="slider__item">
+						<div class="team-content text-center wow">
+							<div class="team-thumb">
+								<img src="assets/images/team/02.png" alt="tema-image">
+							</div>
+							<div class="team-text">
+								<a href="javascript:;"><h4>Ajith</h4></a>
+								<p>Head of React Native</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="swiper-slide">
+					<div class="slider__item">
+						<div class="team-content text-center wow">
+							<div class="team-thumb">
+								<img src="assets/images/team/08.png" alt="tema-image">
+							</div>
+							<div class="team-text">
+								<a href="javascript:;"><h4>Raja</h4></a>
+								<p>Head of Mean Stack</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="swiper-slide">
+					<div class="slider__item">
+						<div class="team-content text-center wow">
+							<div class="team-thumb">
+								<img src="assets/images/team/02.png" alt="tema-image">
+							</div>
+							<div class="team-text">
+								<a href="javascript:;"><h4>Ganishkar</h4></a>
+								<p>Head of Andriod</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+			
+	</div>
+</div>
+<!--end slider team area start -->
+
+
+<!-- team area start -->
+	<div class="our-team">
+		<div class="container">
+			<div class="section-heading text-center wow">
+				<h3>QUALITY GROUP</h3>
+			</div>
+			<div class="section-wrapper">
+				<div class="row justify-content-center">
+					<div class="col-xl-4 col-lg-4 col-md-6 col-12">
+						<div class="team-content text-center wow">
+							<div class="team-thumb">
+								<img src="assets/images/team/CEO.png" alt="tema-image">
+							</div>
+							<div class="team-text">
+								<a href="javascript:;"><h4>Er.Venkat Chennakrishnan</h4></a>
+								<p>Founder & CEO  OF QUALITY GROUP</p>
+								<!--<ul class="tema-icon">
+									<li><a href="javascript:;"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="javascript:;"><i class="fa fa-behance"></i></a></li>
+									<li><a href="javascript:;"><i class="fa fa-instagram"></i></a></li>
+									<li><a href="javascript:;"><i class="fa fa-vimeo-v"></i></a></li>
+									<li><a href="javascript:;"><i class="fa fa-linkedin-in"></i></a></li>
+								</ul>-->
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-6 col-12">
+						<div class="team-content text-center wow">
+							<div class="team-thumb">
+								<img src="assets/images/team/HR.png" alt="tema-image">
+							</div>
+							<div class="team-text">
+								<a href="javascript:;"><h4>A.HARI KRISHNAN</h4></a>
+								<p>HUMAN RESOURCE</p>
+							</div>
+						</div>
+					</div>	
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- team area ends -->
+
+	<!-- testimonial area start -->
+	<div class="testimonil-area style-1">
+		<div class="container">
+			<div class="section-wrapper">
+				<div class="test-content">
+					<div class="content-inner">
+						<span>Our Clients Feedback</span>
+						<h3>Check Testimonials For Our Satisfied Clients</h3>
+					</div>
+				</div>
+				
+				<div class="test-wrapper">
+					<div class="testimonial-slider">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="test-item">
+									<div class="item-inner">
+										<div class="test-thumb">
+											<img src="assets/images/testimonial/01.png" alt="test-image">
+										</div>
+										<div class="test-text">
+											<h6>Vijay Ananth</h6>
+											<p>Tirupathur</p>
+										</div>
+									</div>
+									<div class="test-decs">
+										<p>
+                                           "Quality Groups did a tremendous job of constructing our website! the positioning appearance nice and works higher than expected! Ampacy Soft exceeded our expectations and that i have referred their services to my shut friends!".
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="test-item">
+									<div class="item-inner">
+										<div class="test-thumb">
+											<img src="assets/images/testimonial/05.png" alt="test-image">
+										</div>
+										<div class="test-text">
+											<h6>Siva Kumar</h6>
+											<p> Bangalore</p>
+										</div>
+									</div>
+									<div class="test-decs">
+										<p>
+											"It took a while to seek out the best digital company we would have liked on the Asian nation. once a lot of analysis and exploration, we tend to found that Ampacy Soft may be a bright star within the internet development and Digital selling area. We've been very happy".
+										</p>
+									</div>
+								</div>
+							</div>
+							
+							
+							
+						</div>
+						<!-- Add Pagination -->
+						<div class="testi-pagination">
+							<div><span></span></div>
+							<div><span></span></div>
+							<div><span></span></div>
+							<div><span></span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- testimonial area ends -->
+	
+	<!-- sponsor area start -->
+	<!-- <div class="sponsor-section" style="background: #f7fafe;border-top: 1px solid #e8e8e8;">
+		<!-- <div class="container"> -->
+		<!-- <div class="section-heading text-center wow">
+				<h3 style="color: #6920a6;">Our Clients</h3>
+			</div>
+			<div class="sponsor-wrapper">
+				<div class="sponsor-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="sponsor-thumb">
+								<div class="thumb-inner">
+									<a href="javascript:;" class="sponsor-logo">
+										<span class="before-image"><img src="assets/images/sponsor/sponsor.png" alt="sponsor-imge"></span>
+										<span class="after-image"><img src="assets/images/sponsor/sponsor.png" alt="sponsor-imge"></span>
+									</a>
+								</div>
+							</div>
+						</div> -->
+						<!-- <div class="swiper-slide">
+							<div class="sponsor-thumb">
+								<div class="thumb-inner">
+									<a href="javascript:;" class="sponsor-logo">
+										<span class="before-image"><img src="#" alt="sponsor-imge"></span>
+										<span class="after-image"><img src="#" alt="sponsor-imge"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="sponsor-thumb">
+								<div class="thumb-inner">
+									<a href="javascript:;" class="sponsor-logo">
+										<span class="before-image"><img src="#" alt="sponsor-imge"></span>
+										<span class="after-image"><img src="#" alt="sponsor-imge"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="sponsor-thumb">
+								<div class="thumb-inner">
+									<a href="javascript:;" class="sponsor-logo">
+										<span class="before-image"><img src="#" alt="sponsor-imge"></span>
+										<span class="after-image"><img src="#" alt="sponsor-imge"></span>
+									</a>
+								</div>
+							</div>
+						</div> -->
+						<!-- <div class="swiper-slide">
+							<div class="sponsor-thumb">
+								<div class="thumb-inner">
+									<a href="javascript:;" class="sponsor-logo">
+										<span class="before-image"><img src="#" alt="sponsor-imge"></span>
+										<span class="after-image"><img src="#" alt="sponsor-imge"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+						
+						
+					</div>
+				</div>
+			</div> -->
+		<!-- </div> -->
+	<!-- </div> --> -->
+	<!-- sponsor area end -->
+
+	<!-- footer area start -->
+	
+	<!-- footer area start -->
+	<footer>
+		<div class="footer-position style-4">
+			<div class="animate-bubble style-1 style-2">
+				<div class="bubble a-one"></div>
+				<div class="bubble a-three"></div>
+				<div class="bubble a-four"></div>
+				<div class="bubble a-six"></div>
+				<div class="bubble a-eight">
+					<img src="assets/images/banner/shape/a3.png" alt="animate">
+				</div>
+				<div class="bubble a-nine">
+					<img src="assets/images/banner/shape/a3.png" alt="animate">
+				</div>
+				<div class="bubble a-ten">
+					<img src="assets/images/banner/shape/a3.png" alt="animate">
+				</div>
+				<div class="bubble a-eleven">
+					<img src="assets/images/banner/shape/a3.png" alt="animate">
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="footer-media">
+							<a href="index.html">
+								<img src="assets/images/Qualityss.png" alt="footer-image">
+							</a>
+							<p>
+								Our goal is to form web site that doesn't simply look sensible on the eyes however delivers desired results too.
+							</p>
+							<ul class="footer-social">
+								<li>
+									<a href="javascript:;"><i class="fa fa-facebook-f"></i></a>
+								</li>
+								<li>
+									<a href="javascript:;"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li>
+									<a href="javascript:;"><i class="fa fa-instagram"></i></a>
+								</li>
+								<li>
+									<a href="javascript:;"><i class="fa fa-linkedin-in"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col">
+						<div class="link-us">
+							<h4>Quick Link</h4>
+							<ul>
+								<li>
+									<a href="index.html">Home</a>
+								</li>
+								<li>
+									<a href="about.html">About</a>
+								</li>
+								<li>
+									<a href="project.html">Our Project</a>
+								</li>
+								<li>
+									<a href="website_design">Our Service</a>
+								</li>
+								<li>
+									<a href="contact.html">Contact Us</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col">
+						<div class="footer-contact">
+							<h4>Contact Us</h4>
+							<ul>
+							<li>
+									<i class=" fa fa-solid fa-street-view"></i>
+									<span> Tiruvannamalai, Tamil Nadu 606704</span>
+								</li>
+								<li>
+									<i class=" fa fa-solid fa-street-view"></i>
+									<span> Tirupattur, Tamil Nadu 635601</span>
+								</li>
+								<li>
+									<i class="fa fa-phone"></i>
+									<span><a href="tel:9600998036">9600998036</a></span>
+								</li>
+								<li>
+									<i class="fa fa-envelope"></i>
+									<span><a href="mailto:qgc@gmail.com">qgc@gmail.com</a></span>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="footer-contact">
+							<h4>Other Branches</h4>
+							
+							<ul>
+								<li>
+									<i class=" fa fa-solid fa-street-view"></i>
+									<span><span style="color:yellow">Tirupathur Branch  </span> <br/> Tirupathur, Tamil Nadu</span>
+								</li>
+								<li>
+									<i class=" fa fa-solid fa-street-view"></i>
+									<span><span style="color:yellow">Coimbatore Branch </span> <br/> N0 5/67, Coimbatore, Tamil Nadu 625698</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="footer-news">
+							<h4>newsletter</h4>
+							<form action="subscribe_mail" method="post">
+								<input type="email" name="email" id="email" class="email" placeholder="Enter Email Address" required>
+								<button type="submit" name="submit" class="button">
+									Subscribe
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+		
+	<div class="footer-bottom style-two" style="background: #6920a6;border-top: 1px solid;">
+		<div class="container">
+			<div class="copy-right text-center">
+				<p>Copyright &copy; 2024 <a href="index.html">Quality Group of Companies</a>  All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer area ends -->
+	<!-- footer area ends -->
+
+	<!--scroll up-->
+	<div class="scroll-top style-5">
+		<div class="scrollToTop active">
+			<span>
+				<i class="fa fa-arrow-up"></i>
+			</span>
+		</div>
+	</div>
+	<!--scroll up-->
+
+    <!-- Optional JavaScript -->
+	<!-- jQuery first, then Bootstrap JS, then font-awosame, then lightcase Js, then image loaded & isotope Js, than swiper js -->
+    <script src="assets/JS/"></script>
+    <script src="assets/JS/jquery.min.js"></script>
+	<script src="assets/JS/bootstrap.min.js"></script>
+    <script src="assets/JS/fontawesome.min.js"></script>
+	<script src="assets/JS/jquery.waypoints.min.js"></script>
+	<script src="assets/JS/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/JS/jquery.counterup.min.js"></script>
+	<script src="assets/JS/count-down.js"></script>
+	<script src="assets/JS/isotope-min.js"></script>
+	<script src="assets/JS/lightcase.js"></script>
+	<script src="assets/JS/swiper.min.js"></script>
+	<script src="assets/JS/theia-sticky-sidebar.js"></script>
+	<script src="assets/JS/wow.min.js"></script>
+	<script src="assets/JS/active.js"></script>
+	
+<script type="text/javascript"> 
+    function validateHome(value){
+	   var phone = value;
+	   phone = phone.replace(/[^0-9]/g, '');
+		if((phone.length != 10) && (phone.length != 12)) { 
+		   alert("Phone Number must be 10 digits or 12 digits");
+		   document.getElementById("phone").value = "";
+		} 
+    }
+    function validateMobile(value){
+	   var phone = value;
+	   phone = phone.replace(/[^0-9]/g, '');
+		if((phone.length != 10) && (phone.length != 12)) { 
+		    alert("Phone Number must be 10 digits or 12 digits");
+			document.getElementById("mobile").value = "";
+		} 
+    }
+	
+const slider = document.querySelector('.slider');
+const sl = new Swiper(slider, {
+  slidesPerView: 'auto',
+  loop: true,
+  speed: 1000,
+  slidesPerView: '4',
+  autoplay: {
+    enabled: true,
+    delay: 4000,
+  },
+
+});
+</script>
+<script>
+$(document).ready(function(){
+  $('.dropdown-submenu a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
+
+  </body>
+</html>
+
+
+
+
